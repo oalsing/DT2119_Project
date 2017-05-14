@@ -1,7 +1,7 @@
 import re
 import random
 
-if __name__=='__name__':
+if __name__=='__main__':
     with open('workdir/train.lst') as f:
         filenames = f.readlines()
     random.shuffle(filenames)
